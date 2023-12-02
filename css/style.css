@@ -1,0 +1,144 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #000000;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #808080;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #000000;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #000000;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotronhome {
+    background-image: url("../assets/eire5.png");
+    text-align: center;
+    color: #000000;
+    padding: 3%;
+    border-radius: 0px;
+    height:calc(100vh - 40px);
+}
+
+.jumbotronhome h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+.containerhome{
+    padding:190px 0;
+}
+.jumbotron {
+    background-color: #faf6f1;
+    text-align: center;
+    color: #000000;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #faf6f1;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #000000;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-width: 100%;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: rgb(175, 175, 175);
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    background-color: #faf6f1;
+    color: #242424;
+}
